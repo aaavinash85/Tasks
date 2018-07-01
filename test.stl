@@ -1,5 +1,5 @@
 Solid let 
-Facet normal 0 1 0
+Facet normal 1 1 1
     Outer loop
         Vertex 0.171 3.13
         Vertex 0.5 3.9 -1.5
