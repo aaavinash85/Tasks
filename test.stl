@@ -1,9 +1,9 @@
 solid let 
-facet normal nx ny nz
+facet normal 0 1 0
     outer loop
-        vertex v1x v1y v1z
-        vertex v2x v2y v2z
-        vertex v3x v3y v3z
+        vertex 0.171 3.13
+        vertex 0.5 3.9 -1.5
+     
     endloop
 endfacet
 endsolid let
