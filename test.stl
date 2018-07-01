@@ -1,4 +1,4 @@
-solid <let> 
+solid let 
 facet normal nx ny nz
     outer loop
         vertex v1x v1y v1z
@@ -6,4 +6,4 @@ facet normal nx ny nz
         vertex v3x v3y v3z
     endloop
 endfacet
-endsolid <let>
+endsolid let
