@@ -1,0 +1,55 @@
+Script started on 2018-07-30 01:00:32+0530
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# ck[Klear
+[3J[H[2J]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# clear[1Pexitclearfind -f php.ini[3Pphp.inigrep php.ini [8Pcleargrep php.ini /[9Pcleargrep php.ini /*[10Pclear./table.sh [6Pclear[K[K[K[K[K./functions.sh 
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# riyuzaki
+bash: riyuzaki: command not found
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# chmod +x functions.sh 
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# ./functions.sh 
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# riyuzaki
+bash: riyuzaki: command not found
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# . functions.sh 
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# riyuzaki
+Hey what's up!
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# clear
+[3J[H[2J]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# clearriyuzaki. functions.sh 
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# light
+     July 2018        
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 [7m30[27m 31              
+                      
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# clear
+[3J[H[2J]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# unset youtube
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# unset youtube[K[K[K[K[K[K[Kbyebye
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# unset byebye[K[K[K[K[K[Kligh[K[K[K[K[K[K[K[K[K[Kunset youtube[K[K[K[K[K[K[K[K light
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# unset light[K[K[K[K[Kyagami[K[K[K[K[K[Kyagammi
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# unset yagammi[K[K[K[K[K[K[Kriyuzaki
+]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# clear
+[3J[H[2J]0;root@Riyuzaki: ~/Desktop/Shell_Scripting[01;31mroot@Riyuzaki[00m:[01;34m~/Desktop/Shell_Scripting[00m# clearunset riyuzaki[9Pclear[K./info.sh
+please provide username
+avi
+BASH=/bin/bash
+BASHOPTS=cmdhist:complete_fullquote:extquote:force_fignore:hostcomplete:interactive_comments:progcomp:promptvars:sourcepath
+BASH_ALIASES=()
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_CMDS=()
+BASH_LINENO=([0]="0")
+BASH_SOURCE=([0]="./info.sh")
+BASH_VERSINFO=([0]="4" [1]="4" [2]="18" [3]="1" [4]="release" [5]="x86_64-pc-linux-gnu")
+BASH_VERSION='4.4.18(1)-release'
+COLORTERM=truecolor
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+DESKTOP_SESSION=gnome
+DIRSTACK=()
+DISPLAY=:1
+EUID=0
+GDMSESSION=gnome
+GDM_LANG=en_IN
+GJS_DEBUG_OUTPUT=stderr
+GJS_DEBUG_TOPICS='JS ERROR;JS LOG'
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/caa46767_0cbb_4e12_8d34_c395bafa8

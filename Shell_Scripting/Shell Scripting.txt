@@ -1,0 +1,189 @@
+Shell Scripting
+
+  $Cal - This command Shows us the calendar
+    $cal 7 2019 #this will displays the calendar from july 2019
+  $date - displays the date
+  
+  $touch [name] # This is used to create empty files
+
+  $mkdir [name] #this is used to create directory
+
+  $cd [name]  #this is used to change directory
+
+  $cat >[name] #cat is used to create files, cat also allows us to enter text.Ctrl+D is used to savethe  file.
+
+  Cat is also used to merge files and create a single file
+  $cat [file1] [file2] >[merged file]
+
+  $mv [name] [new_name] #this is used to rename files
+
+  $rm -r [name] # -r is used to command directory 
+
+  $rmdir [name] #this is used to remove the directory
+
+  $cp [file_name] /location/[filename]  #this is used to copy files
+
+  $ln [old_file] [new_file] # this is used to create libks b/w two files
+  $ln -s [ ] [ ] //this will create a hard link
+
+  $chmod  #this is used to change file permissions
+  $chmod +x
+  $chmod 777
+ 
+  $uname -a # -a is for all
+
+  $wc [file_name] #it gives three things 1) no. of lines 2) no. of words 3) no. of characters
+  $wc -l [name] # it will only give nu. of words
+  $wc - w [name]
+  $wc -c [name]
+ 
+  Sort command is used to sort text,numbers etc
+   $sort [file_name] #this will sort the contents alaphabetically and displays it to the user
+  
+  Cut command is used like a filter
+  $cut -d"-" -f 1 #-d is used as a delimiter and we have to provide  delimiter in the "" and -f is the no. of fields you want to display.
+
+  dd comand is used for conversions
+  $dd -if =[file_name] of=[name] conv=ucase # it will convert all the letters into Upperrcase.
+  $dd -if =[file_name] of=[name] conv=lcase # it will convert all the letters into lowercase.
+  
+  $banner #this command is used tocreate fancy text
+
+  Comments In the Shell Scripting
+  # is used to make comment
+
+  echo works like a print in the shell scripting
+
+  Variables in Shell Script
+   read [name]  # this will read the input  from user and it will be displayed uisng echo on the following manner
+     echo" Hello $[name],its fine day" # whenever we have to use variable we have to use $ sign
+  
+     Reverse Quotes 
+      this is used to run a command inside some other command 
+         set `test cat`
+
+       Count the no. of Command line Arguments
+        Set this is Awesome #in order to count the no of words
+        $echo $#
+        o/p 6
+
+    Arthimetic using expr
+     expr $a+$b
+     expr $a/$b
+
+
+   Escape Spaces -- these modify the behaviour of echo statement
+      \n -- create a new line
+      \r -- ignore the first part i.e    
+            behind the \r
+      \t -- used in place of  5 spaces
+
+
+    If-then statement
+
+    if [condition]   # beginning of if statement
+       then 
+          statement to be executd
+        else
+           statement to be executed 
+
+     fi  #ending of if statement
+
+                Elif
+     if []
+      then 
+
+      elif 
+       then
+
+       else
+
+       fi
+
+
+   File Check
+
+   -f is used for file
+   -d is used for directory
+   -c is used for cat files
+   -r is used for read file
+   -w is used for write file
+   -x
+   -b is used for block files
+
+   # if-else statement
+echo "please provide a number "
+read num
+if [ $num -lt 5 ]  #here -lt stands for less than
+then               # and for greater than we have to choose -gt
+   echo "Good"     # -eq is used for equality 
+else
+	echo "Bad"
+fi
+
+     Logical Operator
+    
+       -a = AND operator
+       -o = OR operator
+
+  echo "provie a number b/w 50 and 100 "
+read num
+if [ $num -le 100 -a $num -ge 50 ] # -a is used for AND
+	then 
+	echo "you are with in limits"
+else
+	echo " you are out of limits"
+fi
+
+
+     For loop
+   for i in
+     do 
+
+     done
+ 
+
+   grep command -- is used to search text or searches the given file for lines containing a match to the given string or words
+ 
+
+       IFS -- internal field separator
+   line="this@is@Awesome"
+   IFS=@  # here ifs will look for @
+   set $line
+   echo $1
+   echo $2
+   echo $3
+
+    sleep command
+  echo "write here"
+read str
+for word in $str
+do
+	echo $word
+	sleep 5    #it will wait for five sec to display 2nd word and soon
+done  
+
+
+   write is used to communicate with other users
+   finger give the information aabout the user
+
+      Functions
+    name(){
+       #statements goes here
+    }
+
+      
+    
+ 
+
+
+  
+
+
+
+
+
+
+
+
+  
