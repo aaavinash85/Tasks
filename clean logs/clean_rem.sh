@@ -1,0 +1,58 @@
+#!/bin/bash
+
+rm debug.log.1[0-9]
+rm warning.log.1[0-9]
+rm warning.log.1[0-9]
+rm error.log.1[0-9]
+rm console.log.1[0-9]
+rm debug.log.[6-9]
+rm warning.log.[6-9]
+rm warning.log.[4-9]
+rm error.log.[4-9]
+rm console.log.[4-9]
+rm info.log.1[0-9]
+rm info.log.[4-9]
+
+cd mhs
+rm debug.log.1[0-9]
+rm warning.log.1[0-9]
+rm warning.log.1[0-9]
+rm error.log.1[0-9]
+rm console.log.1[0-9]
+rm debug.log.[6-9]
+rm warning.log.[6-9]
+rm warning.log.[4-9]
+rm error.log.[4-9]
+rm console.log.[4-9]
+rm info.log.1[0-9]
+rm info.log.[4-9]
+
+cd ..
+cd ims
+rm debug.log.1[0-9]
+rm warning.log.1[0-9]
+rm warning.log.1[0-9]
+rm error.log.1[0-9]
+rm console.log.1[0-9]
+rm debug.log.[6-9]
+rm warning.log.[6-9]
+rm warning.log.[4-9]
+rm error.log.[4-9]
+rm console.log.[4-9]
+rm info.log.1[0-9]
+rm info.log.[4-9]
+
+cd ..
+cd pf
+rm debug.log.1[0-9]
+rm warning.log.1[0-9]
+rm warning.log.1[0-9]
+rm error.log.1[0-9]
+rm console.log.1[0-9]
+rm debug.log.[6-9]
+rm warning.log.[6-9]
+rm warning.log.[4-9]
+rm error.log.[4-9]
+rm console.log.[4-9]
+rm info.log.1[0-9]
+rm info.log.[4-9]
